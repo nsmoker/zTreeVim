@@ -15,7 +15,8 @@ syntax keyword zTreeKeyword
 syntax match zTreeNumber "\v<\d+>"
 syntax match zTreeNumber "\v<\d+\.\d+>"
 
-syntax match zTreeOperator "[-!#$%&\*\+/<=>\?@\\^|~:.]\+\|\<_\>"
+syntax match zTreeOperator "[-!#$%&\*\+/<=>\?@\\^|~:]\+\|\<_\>"
+syntax match zTreeOperator "not"
 
 syntax match zTreeBool "TRUE"
 syntax match zTreeBool "FALSE"
